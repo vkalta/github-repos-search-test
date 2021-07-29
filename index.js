@@ -22,6 +22,4 @@ const getRepos = async ({
     }
 };
 
-// getRepos().then((repositories) => console.log(repositories));
-
 module.exports = { getRepos };
