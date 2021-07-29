@@ -16,5 +16,8 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.20.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.4.4"
   }
 }
