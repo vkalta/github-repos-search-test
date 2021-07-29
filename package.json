@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.com/vkalta/github-repos-search-test",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkalta/github-repos-search-test"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vikram Kalta <vikram.kalta@contentstack.com>",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.20.0"
