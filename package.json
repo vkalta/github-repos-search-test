@@ -28,7 +28,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "node verifyCommit.js"
+      "pre-commit": "node verifyCommit.js"
     }
   }
 }
