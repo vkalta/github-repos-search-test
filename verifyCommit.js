@@ -4,7 +4,7 @@ const msgPath = process.env.HUSKY_GIT_PARAMS;
 const msg = require('fs')
     .readFileSync(msgPath, 'utf-8')
     .trim();
-
+console.log('test', process.env.HUSKY_GIT_PARAMS);
 const commitRE = /^(revert: |Merge.+)|(feat|fix|docs|dx|style|refactor|perf|test|workflow|build|chore|types|wip|merge)(\(.+\))?: .+/;
 
 if (!commitRE.test(msg)) {
