@@ -4,7 +4,7 @@ const axios = require('axios');
 const getRepos = async ({
     username = 'vkalta',
     page = 1,
-    per_page = 31
+    per_page = 32
 } = {}) => {
     try {
         const repos = await axios.get(`https://api.github.com/users/${username}/repos?page=${page}&per_page=${per_page}&sort=updated`);
